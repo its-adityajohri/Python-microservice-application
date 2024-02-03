@@ -35,6 +35,7 @@ const Main = () => {
 
     return (
         <main role="main">
+            <h1>test main yo</h1>
             <div className="album py-5 bg-light">
                 <div className="container">
                     <div className="row">

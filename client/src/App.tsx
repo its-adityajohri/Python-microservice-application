@@ -9,12 +9,14 @@ import ProductsEdit from "./admin/ProductsEdit";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            {/* <BrowserRouter>
                 <Route path='/' Component={Main}/>
                 <Route path='/admin/products' Component={Products}/>
                 <Route path='/admin/products/create' Component={ProductsCreate}/>
                 <Route path='/admin/products/:id/edit' Component={ProductsEdit}/>
-            </BrowserRouter>
+            </BrowserRouter> */}
+            <div>test hello 1</div>
+            <Main/>
 
         </div>
     );
